@@ -28,4 +28,4 @@ You can customize:
 - link: Link to the privacy policy. Defaults to "#"
 - link-text: Text of the Privacy Policy link. Defaults to "Privacy link"
 - button-text: Text of the button. Defaults to "Ok"
-- button-color: Color of the button. Defaults to "#d8348a"
+- button-color: Color of the button. Defaults to "#4a4a4a"
