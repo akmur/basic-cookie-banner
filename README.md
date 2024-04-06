@@ -2,6 +2,8 @@
 
 A simple dismissable cookie banner.
 
+<img width="1075" alt="image" src="https://github.com/akmur/basic-cookie-banner/assets/957841/b0257f8a-add1-4dfa-9b93-dbc7f2c41db4">
+
 # How to use it
 
 Include the file cookie-banner.js
