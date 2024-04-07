@@ -12,7 +12,7 @@ Include the file cookie-banner.js
 <script src="path/to/cookie-banner.js" defer></script>
 ```
 
-Then you can use the component as follows:
+Then you can use the component as follows in your html:
 
 ```
 <cookie-banner 
