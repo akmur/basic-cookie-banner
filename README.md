@@ -28,6 +28,6 @@ Then you can use the component as follows:
 You can customize:
 - message: Message to be shown in your banner. Defaults to "We're using cookies."
 - link: Link to the privacy policy. Defaults to "#"
-- link-text: Text of the Privacy Policy link. Defaults to "Privacy link"
+- link-text: Text of the Privacy Policy link. Defaults to "Privacy Policy"
 - button-text: Text of the button. Defaults to "Ok"
 - button-color: Color of the button. Defaults to "#4a4a4a"
