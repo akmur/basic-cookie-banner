@@ -16,6 +16,11 @@ class CookieBanner extends HTMLElement {
                     width: 100%;
                 }
 
+                .cookie-message {
+                    font-size: 1.6rem;
+                    line-height: 1;
+                }
+
                 .cookie-banner-wrapper {
                     align-items: center;
                     display: flex;
@@ -35,19 +40,21 @@ class CookieBanner extends HTMLElement {
                     font-size: 1.4rem;
                     font-weight: 700;
                     margin: 0;
-                    padding: 1rem 2rem;
+                    padding: 0.75rem 2rem;
                     text-align: center;
                     text-decoration: none;
                     text-transform: uppercase;
                     transition: all 0.3s ease-in-out;
                     -webkit-transition: all 0.3s ease-in-out;
                     white-space: nowrap;
+                    line-height: 1;
                 }
 
                 .cookie-banner-privacy-link {
                     color: #4a4a4a;
                     text-decoration: underline;
                     font-size: 1.6rem;
+                    line-height: 1;
                 }
             </style>
             <div id="cookie-banner" class="cookie-banner">
