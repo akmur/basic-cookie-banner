@@ -105,9 +105,16 @@ class CookieBanner extends HTMLElement {
         const buttonText = this.getAttribute('button-text');
         const buttonColor = this.getAttribute('button-color');
 
-        if (message) this.messageDiv.innerText = message;
+        if (message) {
+            this.messageDiv.innerText = message;
+            this.messageDiv.style.color = buttonColor;
+        }
+        if (linkText) {
+            this.privacyLink.innerText = linkText;
+            this.privacyLink.style.color = buttonColor;
+        }
+
         if (link) this.privacyLink.href = link;
-        if (linkText) this.privacyLink.innerText = linkText;
         if (buttonText) this.buttonText.innerText = buttonText;
         if (buttonColor) this.buttonText.style.backgroundColor = buttonColor;
     }
